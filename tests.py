@@ -1,3 +1,10 @@
+'''
+Author: Brian Mukeswe
+Date: September 30, 2019
+Contact: mukeswebrian@yahoo.com
+
+Test cases to verify the fucntionality of the volunteer and session classes
+'''
 from unittest import TestCase
 from student_group import StudentGroup
 from volunteer import Volunteer
