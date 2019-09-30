@@ -1,3 +1,10 @@
+'''
+Author: Brian Mukeswe
+Date: September 30, 2019
+Contact: mukeswebrian@yahoo.com
+
+This class defines a teaching session into which a volunteer can be scheduled
+'''
 class Session():
     
     def __init__(self, week, day, session_id):
