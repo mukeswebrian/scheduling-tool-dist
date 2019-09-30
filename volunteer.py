@@ -1,3 +1,10 @@
+'''
+Author: Brian Mukeswe
+Date: September 30, 2019
+Contact: mukeswebrian@yahoo.com
+
+This class defines a volunteer that can be scheduled into a session
+'''
 class Volunteer():
     
     def __init__(self, volunteer_id):
