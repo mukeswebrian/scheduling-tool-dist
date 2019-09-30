@@ -1,3 +1,10 @@
+'''
+Author: Brian Mukeswe
+Date: September 30, 2019
+Contact: mukeswebrian@yahoo.com
+
+This file contains utility functions for working with a MongoDB database server
+'''
 # import relevant libraries
 import pandas as pd
 from pymongo import MongoClient
