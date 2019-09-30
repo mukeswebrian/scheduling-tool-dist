@@ -1,3 +1,10 @@
+'''
+Author: Brian Mukeswe
+Date: September 30, 2019
+Contact: mukeswebrian@yahoo.com
+
+This is the entry point to the scheduling application
+'''
 from session import Session
 from volunteer import Volunteer
 from student_group import StudentGroup
@@ -495,23 +502,4 @@ if __name__ == "__main__":
 
     rpt.close()
     
-    '''
-    server = {"host":"localhost",
-          "port":27017,
-          "database":"scheduling_tool",
-          "collection":""}
-    
-    server['collection'] = "volunteer_schedules"
-    store_volunteer_schedules(server, volunteers)
-    
-    server['collection'] = "sessions"
-    store_session_info(server, sessions)
-    
-    server['collection'] = "rotations"
-    store_rotations(server, sessions)
-    
-    server['collection'] = "volunteer_schedules"
-    for volunteer_id in volunteers.keys():  
-        rp.report_volunteer_schedule(volunteer_id, server, sessions)
-    ''' 
     
