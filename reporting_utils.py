@@ -1,3 +1,10 @@
+'''
+Author: Brian Mukeswe
+Date: September 30, 2019
+Contact: mukeswebrian@yahoo.com
+
+This file contains utility functions for reporting the generated schedule
+'''
 import mongo_utils as mg
 import pandas as pd
 
